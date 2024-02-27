@@ -1,0 +1,8 @@
+*.ipynb_checkpoints/
+*.html
+*.pdf
+*.png
+*.jpg
+*.svg
+*.gif
+*_files/
