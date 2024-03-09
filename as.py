@@ -41,7 +41,7 @@ for page in href_trips:
         if fusions_page.find('p', class_="car-text") is None:
             spots_left = "0 spot(s)"
         else:
-            spots_left = fusions_page.find('p', class_="car-text").text
+            spots_left = fusions_page.find('p', class_="car-text").text[:-9]
         
     scraped_data.append([trip_name, trip_date, spots_left])
 
